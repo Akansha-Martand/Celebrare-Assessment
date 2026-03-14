@@ -1,9 +1,7 @@
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">
-        Photo Gallery App
-      </h1>
+    <div className="text-center mt-10 text-2xl">
+      Photo Gallery App
     </div>
   )
 }
