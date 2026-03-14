@@ -1,9 +1,12 @@
 function App() {
   return (
-    <div className="text-center mt-10 text-2xl">
-      Photo Gallery App
+    <div >
+      <h1 className="text-3xl font-bold text-center mt-6">
+        Photo Gallery
+      </h1>
+      <Gallery />
     </div>
-  )
+  );
 }
 
 export default App
