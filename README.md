@@ -1,16 +1,92 @@
-# React + Vite
+# Celebrare — Frontend Intern Pre-Screening Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Photo Gallery Web App
 
-Currently, two official plugins are available:
+A responsive **React Photo Gallery** that fetches images from the Picsum API, displays them in a grid, allows real-time search by author, and lets users mark photos as favourites with persistence using **localStorage**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## Repository
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+GitHub Repo:
+`https://github.com/Akansha-Martand/Celebrare-Assessment.git`
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Features
+
+* Fetch photos from **Picsum API**
+* **Responsive grid layout**
+* **Real-time search filter**
+* **Favourites toggle using `useReducer`**
+* **localStorage persistence**
+* Custom hook: `useFetchPhotos`
+* Performance optimization using **`useCallback` and `useMemo`**
+
+---
+
+## Tech Stack
+
+* React
+* Vite
+* Tailwind CSS
+* JavaScript (ES6)
+* React Hooks
+
+---
+
+## Setup on a New Machine
+
+### 1. Clone the Repository
+
+```
+git clone https://github.com/Akansha-Martand/Celebrare-Assessment.git
+```
+
+### 2. Go to Project Folder
+
+```
+cd photo-gallery-app
+```
+
+### 3. Install Dependencies
+
+```
+npm install
+```
+
+### 4. Start Development Server
+
+```
+npm run dev
+```
+
+Open in browser:
+
+```
+http://localhost:5173
+```
+
+---
+
+## Pull Latest Changes
+
+```
+git pull origin main
+```
+
+---
+
+## Build for Production
+
+```
+npm run build
+```
+
+---
+
+## Preview Production Build
+
+```
+npm run preview
+```

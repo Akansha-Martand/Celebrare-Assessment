@@ -71,7 +71,7 @@ function Gallery() {
                                 onClick={() => toggleFavourite(photo)}
                                 aria-label={favourites.some((fav) => fav.id === photo.id) ? 'Remove favorite' : 'Add favorite'}
                             >
-                                {favourites.some((fav) => fav.id === photo.id) ? '★' : '☆'}
+                                {favourites.some((fav) => fav.id === photo.id) ? '♥' : '♡'}
                             </button>
                         </div>
                     </div>
