@@ -9,3 +9,4 @@ export function favouritesReducer(state, action) {
         default:
             return state;
     }
+}
